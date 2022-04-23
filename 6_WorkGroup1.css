@@ -1,0 +1,59 @@
+body {
+  background-color: #181818;
+  color: #fff;
+}
+@media (min-width: 1500px) {
+  .container {
+    max-width: 1400px;
+  }
+}
+.navbar {
+  border-bottom: #008ed6 3px solid;
+  /* opacity: 0.8; */
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.navbar .nav-link {
+  font-size: 15px;
+  font-family: 'Microsoft JhengHei';
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.carousel-item {
+  height: 300px;
+}
+
+.page-section {
+  background: url('6_WorkGroup1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 900px;
+}
+
+.page-section .dark-overlay {
+  position: realative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 900px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.page-item .page-link {
+  color: #fff !important;
+  background: rgba(0, 0, 0, 0.7) !important;
+}
+
+
+.btn-outline-danger{
+  font-weight: bold;
+}
+
+.modal {
+  color: black;
+}

@@ -1,0 +1,60 @@
+body {
+  background-color: #181818;
+  color: #fff;
+}
+
+@media (min-width: 1800px) {
+  .container {
+    width: 1600px;
+  }
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.navbar .nav-link {
+  font-size: 15px;
+  font-family: 'Microsoft JhengHei';
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.carousel-item {
+  height: 650px;
+}
+
+.page-section {
+  background: url('HomePageImg-0.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 650px;
+}
+
+.page-section .dark-overlay {
+  position: realative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 650px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-image-1 {
+  background: url('HomePageImg-1.jpg');
+  background-size: cover;
+}
+.carousel-image-2 {
+  background: url('HomePageImg-2.jpg');
+  background-size: cover;
+}
+
+.carousel-image-3 {
+  background: url('HomePageImg-3.jpg');
+  background-size: cover;
+}
+
+.card-title {
+  font-weight: bold;
+}
